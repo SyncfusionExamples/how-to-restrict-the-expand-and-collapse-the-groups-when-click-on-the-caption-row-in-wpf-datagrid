@@ -1,8 +1,8 @@
-# How to restrict the expand and collapse the groups when click on the caption row in WPF DataGrid (SfDataGrid)?
-# About the sample
-How to restrict the expand and collapse the groups when click on the caption row in WPF DataGrid (SfDataGrid)?
+# How to Restrict the Expand and Collapse the Groups When Click on the Caption Row in WPF DataGrid?
 
-By default, when click anywhere in caption row group is expand or collapse in SfDataGrid. But you can change this by GroupExpanding, GroupCollapsing, and SelectionChanging events.
+How to restrict the expand and collapse the groups when click on the caption row in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
+
+By default, when click anywhere in caption row group is expand or collapse in `DataGrid`. But you can change this by [GroupExpanding](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.SfDataGrid.html#Syncfusion_UI_Xaml_Grid_SfDataGrid_GroupExpanding), [GroupCollapsing](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.SfDataGrid.html#Syncfusion_UI_Xaml_Grid_SfDataGrid_GroupCollapsing), and [SelectionChanging](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.SfDataGrid.html#Syncfusion_UI_Xaml_Grid_SfDataGrid_SelectionChanging) events.
 
 ```c#
 this.sfDataGrid.GroupCollapsing += SfDataGrid_GroupCollapsing;
@@ -52,5 +52,4 @@ private void SfDataGrid_GroupCollapsing(object sender, GroupChangingEventArgs e)
 }
 ```
 
-## Requirements to run the demo
- Visual Studio 2015 and above versions
+![DataGrid with Groups restrict to expand and collapse when clicking on caption row](RestrictGroupExpandAndCollapse.gif)
